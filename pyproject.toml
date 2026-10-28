@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commodity-portfolio-risk-engine"
+version = "1.0.0"
+description = "USD portfolio risk analytics for FX, natural gas and a utilities proxy."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1,<3",
+    "pandas>=2.2,<3",
+    "scipy>=1.14,<2",
+    "streamlit>=1.66,<2",
+    "altair>=5.5,<7",
+    "yfinance>=0.2.65,<1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[tool.setuptools.packages.find]
+include = ["risk_engine*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

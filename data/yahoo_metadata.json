@@ -1,0 +1,13 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "retrieved_utc": "2026-10-25T14:20:39.845465+00:00",
+  "requested_start": "2023-10-26",
+  "requested_end_inclusive": "2026-10-25",
+  "first_observation": "2023-10-26",
+  "last_observation": "2026-10-23",
+  "observations": 750,
+  "dropped_rows": 29,
+  "auto_adjust": true,
+  "currency": "USD",
+  "note": "XLU is a utilities equity proxy, not an electricity spot/forward price."
+}

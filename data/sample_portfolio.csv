@@ -1,0 +1,5 @@
+ticker,name,asset_class,unit,quantity,multiplier
+EURUSD=X,EUR / USD,FX,EUR,250000.0,1.0
+GBPUSD=X,GBP / USD,FX,GBP,-100000.0,1.0
+NG=F,Henry Hub natural gas,Gas,contract,8.0,10000.0
+XLU,Utilities Select Sector SPDR (proxy),Power proxy,share,2000.0,1.0
